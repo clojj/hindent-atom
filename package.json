@@ -1,0 +1,21 @@
+{
+  "name": "hindent",
+  "main": "./lib/hindent",
+  "version": "0.0.1",
+  "description": "hindent Haskell source files",
+  "keywords": [
+    "indent",
+    "hindent",
+    "haskell"
+  ],
+  "activationHooks": [
+    "language-haskell:grammar-used"
+  ],
+  "repository": "https://github.com/clojj/hindent",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
