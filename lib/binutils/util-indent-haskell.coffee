@@ -4,6 +4,7 @@ path = require 'path'
 # run hindent backend
 indent = (text, workingDirectory, {onComplete, onFailure}) ->
 
+  # todo: path from plugin-config
   shpath = '/Users/jwin/Library/Haskell/bin/hindent'
 
   options = {}
